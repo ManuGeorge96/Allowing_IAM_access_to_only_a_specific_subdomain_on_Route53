@@ -10,7 +10,7 @@ Here, while granting access to the co-worker we should ensure that he is not abl
 
 -  For this first we have to create a new Hosted Zone on Route53 with the sub-domain.
 -  Copy the nameservers provided for the sub-domain and add these Nameservers as NS records for this subdomain on the main domain  Eg:, if the subdomain is <b>test.dnsrecords.tech</b>, then the nameserevrs of the subdomain should be listed as NS record on the DNS records of <b>dnsrecords.tech</b>.
--  Note down the ARN for the newely created Hosted Zone.
+-  Note down the <b>Hosted Zone ID</b> for the newely created Hosted Zone.
 -  Create an IAM policy with the below JSON rules,
 -  ```sh
      {
