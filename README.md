@@ -1,4 +1,3 @@
-# setting_sub-domain_on_Route53_with_IAM_user_access
 ## Situation
  
 A co-worker has come to us asking to to create a subdomain and to grant him permission to edit the DNS records for the same.
